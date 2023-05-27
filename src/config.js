@@ -4,7 +4,7 @@ let config = {};
 
 if (env == "prod") {
   config = {
-    backend_url: "https://myportfolio3697.herokuapp.com/contact",
+    backend_url: "https://dsk-portfolio-backend.onrender.com/contact",
     env: env,
   };
 } else if (env == "dev") {
